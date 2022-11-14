@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function MovieList(props) {
   return (
+    
     <div className="movie-list">
       {props.movies.map(movie => (
         <MovieDetails key={movie.id} movie={movie} />
